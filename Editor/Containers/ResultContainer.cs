@@ -11,8 +11,8 @@ namespace MissingReferencesUtility
         public ResultContainer(string name, List<string> missingComponents, List<string> missingReferences)
         {
             ContainerName = name;
-            MissingComponents = missingComponents;
-            MissingReferences = missingReferences;
+            MissingComponents = new List<string>(missingComponents);
+            MissingReferences = new List<string>(missingReferences);
         }
     }
 }
