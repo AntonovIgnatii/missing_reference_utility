@@ -1,0 +1,9 @@
+{
+  "name": "com.antonov.missingreferencesutility",
+  "displayName": "Missing References Utility",
+  "description": "Pet project",
+  "version": "1.0.0",
+  "author": {
+    "name": "Antonov Ignatii"
+  }
+}
